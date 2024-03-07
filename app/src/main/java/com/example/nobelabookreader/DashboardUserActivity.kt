@@ -11,5 +11,6 @@ class DashboardUserActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDashboardUserBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
     }
 }

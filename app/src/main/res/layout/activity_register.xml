@@ -12,15 +12,15 @@
     
     
     <RelativeLayout
-        android:id="@+id/toolbar01"
+        android:id="@+id/toolBarRl"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@drawable/shape_toolbar01">
 
         <ImageButton
-            android:id="@+id/imageBtn"
+            android:id="@+id/backBtn"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:layout_margin="10dp"
             android:padding="10dp"

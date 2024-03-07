@@ -8,7 +8,7 @@
     android:background="@drawable/back01">
 
     <RelativeLayout
-        android:id="@+id/toolbarRl"
+        android:id="@+id/toolbarR2"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@drawable/shape_toolbar01">
@@ -129,8 +129,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:padding="10dp"
-        android:layout_marginBottom="10dp"
-        android:clickable="true"
-        android:text="Create new Account"/>
+        android:text="@string/new_user_signup"/>
 
 </RelativeLayout>
