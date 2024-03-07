@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding.loginBtn.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
+
         //continue without login
         binding.skipBtn.setOnClickListener {
             startActivity(Intent(this, DashboardUserActivity::class.java))
