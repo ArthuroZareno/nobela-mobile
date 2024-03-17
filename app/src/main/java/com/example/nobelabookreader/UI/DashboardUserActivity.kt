@@ -1,4 +1,4 @@
-package com.example.nobelabookreader
+package com.example.nobelabookreader.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

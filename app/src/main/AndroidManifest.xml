@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -24,7 +25,7 @@
             android:label="@string/title_activity_dashboard_admin"
             android:theme="@style/Theme.NobelaBookReader" />
         <activity
-            android:name=".DashboardUserActivity"
+            android:name=".UI.DashboardUserActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
@@ -42,6 +43,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
